@@ -1,0 +1,376 @@
+
+body{
+	margin:0px;
+	padding: 0px;
+}
+
+@font-face{  
+	font-family:Surfing Capital;
+	src:url(fonts/Surfing Capital.ttf); 
+	font-family:Headliner;
+	src:url(fonts/Headliner.ttf);
+	font-family:SANSC;
+	src:url(fonts/SANSC.TTF);
+
+}
+.slide1{
+	width: 100%;
+	height: 950px;
+	background-image: url(img/img2.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+.slide1 a{
+
+
+	font-size: 26px;
+	font-family:SANSC;
+	color: #37556d;
+
+	padding-right: 3%;
+
+}
+.navbar-nav a{
+	margin-left: 20px;
+}
+.slide2 h4{
+	font-family:SANSC;
+	text-align: center;
+	font-size: 40px;
+	color: #456177;
+}
+.slide2 p{
+	font-size: 18px;
+	letter-spacing: 0.8px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 60px;
+	color: #37556d;
+}
+#slide2__row{
+	margin-left: 20%;
+	font-size: 60px;
+
+}
+
+#slide2__row h3{
+	font-family:SANSC;
+	text-align: left;
+	color: #37556d;
+	z-index: 2;
+	margin-right: 40px;
+}
+#slide2__row i{
+	margin-left: 4%;
+	color: #37556d;
+}
+#slide2__hicon1 {
+	margin-left: -8%;
+}
+@media (max-width: 991px) {
+	#slide2__row i{
+	margin-left: 27%;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+	#slide2__row h3{
+	font-family:SANSC;
+
+	z-index: 2;
+	margin-right: 20px;
+}
+#slide2__hicon2,#slide2__hicon3{
+	margin-left: 24%
+}
+#slide2__hicon1 {
+	margin-left: 21%;
+}
+#slide2__row p{
+	width: 20%;
+	padding-left: 30%;
+
+
+}
+}
+#slide2__row p{
+	width: 80%;
+	margin-left: -24%;
+
+}
+.slide2__img img{
+	width: 70%;
+	height: 70%;
+	float: right;
+	
+	
+}
+.slide2__card{
+	position: absolute;
+	z-index: 3;
+	width: 40%;
+	margin-left: 8%;
+}
+.card-body{	
+	font-family: 'Ubuntu', sans-serif;
+	text-align: left;		
+}		
+.card-title{
+	font-family:SANSC;
+	color: #456177;
+	font-size: 30px;
+	opacity: 1;
+	margin-left: 5%;
+
+}
+.card-text{
+	text-align: left;
+	font-size: 40px;
+
+
+}
+
+.card p{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: left;
+	font-size: 100%;
+	font-weight: 550;
+	margin-left: 5%;
+	color: #37556d;
+
+}
+.card .btn{
+	width: 150px;
+	height: 40px;
+	background-color: #fff;
+	color: black;
+	margin-left: 5%;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-color: #37556d;
+
+}
+.card .btn:hover{
+	background-color: #37556d;
+	border-color: #37556d;
+}
+.card-body{
+	
+}
+.card {
+ 	opacity: 0.9;
+}
+.slide3{
+	font-family:Surfing Capital;
+}
+.slide3 h1{
+	font-size: 200px;
+	font-family:Surfing Capital;
+	margin-top: 950px;
+	text-align: center;
+}
+.slide3__img{
+	width: 100%;
+	height: 1400px;
+	background-image: url(img/1920.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+ .slide3__img h3{
+ 	font-family:SANSC;
+ 	position: absolute;
+	color: #fff;
+	padding-top: 140px;
+	margin-left: 38%;
+	font-size: 30px;
+ }
+ .slide3__img p{
+ 	font-family: 'Ubuntu', sans-serif;
+ 	position: absolute;
+ 	margin-top: 220px;
+ 	font-size: 18px;
+ 	margin-left: 17%;
+ 	margin-right: 23%;
+ 	letter-spacing: 1px;
+ 	text-align: center;
+ 	line-height: 35px;
+
+ }
+ .slide3__img a{
+ 	position: absolute;
+ 	margin-top: 24%;
+ 	width: 150px;
+	height: 40px;
+	background:none;
+	color: black;
+	margin-left: 43%;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-color: #37556d;
+	font-family: 'Ubuntu', sans-serif;
+ }
+.slide4 h5{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+.slide4 img{
+	width: 175px;
+	height: 155px;
+	margin-left: 7%;
+}
+.slide4 .card-body a{
+	margin-left: 18%;
+}
+.slide4 .card {
+	  box-shadow: 5px 10px 18px #ccc;
+	  border: solid 1px #37556d;
+	  border-radius: 1px;
+}
+.slide4 h3{
+	font-family:SANSC;
+ 
+	padding-bottom: 40px;
+	color: #37556d;
+	margin-left: 38%;
+	font-size: 30px;
+}
+.slide5__img{
+	width: 100%;
+	height: 1000px;
+	
+	
+	background: url(img/surfingimg.png);
+	background-size: 100% 1000px;
+	background-repeat: no-repeat;
+}
+.slide6 h3{
+
+	font-family:SANSC;
+ 	padding-bottom: 40px;
+	color: #37556d;
+	margin-left: 38%;
+	font-size: 30px;
+}
+.slide6 form{
+	margin-left: 39%;
+	border-radius: 1px;
+}
+.slide6 button{
+	border-color:  #37556d;
+	color:#37556d; 
+	border-radius: 1px;
+}
+.slide6 button:hover{
+	cursor: pointer;
+	background-color: #37556d;
+}
+.slide6__img{
+	width: 100%;
+	height: 900px;
+	background-size: 100% 600px;
+	background: url(img/footer.png);
+	background-repeat: no-repeat;
+	background-size: 100% 900px;
+}
+.slide6 p{
+	font-family:Surfing Capital;
+	font-size: 1410%;
+	position: absolute;
+	margin-top: 220px;
+	color: #fff;
+	margin-left: 14%;
+	opacity: 0.9;
+}
+.slide6 i{
+	left: 32%;
+	position: relative;
+	margin-left: 5%;
+	margin-top: 760px;
+	color: #fff;
+	font-size: 70px;
+	opacity: 0.8;
+}
+.slide6 i:hover{
+	cursor: pointer;
+
+
+}
+@media (max-width: 991px) {
+	.slide6 p{
+		font-size: 800%;
+	}
+	.slide6 h3{
+		margin-left: 32%;
+	}
+	.slide4 h3{
+		margin-left: 30%;
+	}
+	.slide3__img h3{
+		margin-left: 32%;
+	}
+	.slide3__img a{
+		margin-left: 43%;
+	}
+	.slide3__img p{
+		margin-left: 24%;
+	}
+	 .slide3__img a{
+	margin-top: 60%;
+	margin-left: 43%;
+	}
+	.slide2__card{
+	position: absolute;
+	z-index: 3;
+	width: 40%;
+	margin-left: 8%;
+
+	}
+	.card-text{
+	text-align: left;
+	font-size: 40px;
+	
+
+	}
+
+.card p{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: left;
+	font-size: 100%;
+	font-weight: 550;
+	margin-left: 5%;
+	color: #37556d;
+	overflow: scroll;
+	height: 120px;
+
+	}
+.slide1{
+	width: 100%;
+	height: 950px;
+	background-image: url(img/img2.png);
+	background-size: 120% 100%;
+	background-repeat: no-repeat;
+
+}
+.slide3__img{
+	width: 100%;
+	height: 1400px;
+	background-image: url(img/1920.png);
+	background-size: 120% 100%;
+	background-repeat: no-repeat;
+
+}
+.slide6__img{
+	width: 100%;
+	height: 900px;
+	background-size: 140% 600px;
+	background: url(img/footer.png);
+	background-repeat: no-repeat;
+	background-size: 140% 900px;
+}
+
+}
